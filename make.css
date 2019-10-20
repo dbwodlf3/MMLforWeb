@@ -1,0 +1,40 @@
+*{
+    box-sizing:border-box;
+}
+
+/*가장최외곽*/
+.piano{
+    display:flex;
+}
+/*트랙*/
+
+.track{
+    display:flex;
+}
+
+.track_line{
+    width:15px;
+    height:500px;
+    border-left:1px solid #ffffff;
+    border-right:1px solid #ffffff;
+}
+
+/*건반*/
+.keys{
+    display:inline;
+}
+.octave{
+    display:inline-flex;
+    flex-direction:row;
+}
+.white_key{
+    background-color:white;
+    border:1px solid gray;
+    width:15px;
+    height:100px;
+}
+.black_key{
+    background-color:black;
+    width:15px;
+    height:100px;
+}
