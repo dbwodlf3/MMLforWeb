@@ -73,6 +73,7 @@ function makeTrack(n){
     for(let i=0;i<octave.length;i++){
         temp = document.createElement("div")
         temp.setAttribute("class",octave[i]+n)
+        temp.style.position = "relative"
         temp.classList.add("track_line")
         wrapper.appendChild(temp)
         if(octave[i].match(octaveShap)){

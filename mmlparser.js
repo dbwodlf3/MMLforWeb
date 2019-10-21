@@ -78,7 +78,6 @@ function sepreateMMLtoNote(Data){
     })
 
     //test 할 수 있는 코드.
-    console.log(result)
     return result
 }
 
