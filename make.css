@@ -38,3 +38,11 @@
     width:15px;
     height:100px;
 }
+
+/*Note*/
+
+.note{
+    width:15px;
+    height:30px;
+    background-color:#abcdef;
+}

@@ -21,16 +21,16 @@ document.body.appendChild(piano())
     <div class="keys">
         <div class="octave>
             <div class="c1 white_key"></div>
-            <div class="c1+ black_key"></div>
+            <div class="c+1 black_key"></div>
             <div class="d1 white_key"></div>
-            <div class="d1+ black_key"></div>
+            <div class="d+1 black_key"></div>
             <div class="e1 white_key"></div>
             <div class="f1 white_key"></div>
-            <div class="f1+ black_key"></div>
+            <div class="f+1 black_key"></div>
             <div class="g1 white_key"></div>
-            <div class="g1+ black_key"></div>
+            <div class="g+1 black_key"></div>
             <div class="a1 white_key"></div>
-            <div class="a1+ black_key"></div>
+            <div class="a+1 black_key"></div>
             <div class="b1 white_key"></div>
         </div>
     </div>
